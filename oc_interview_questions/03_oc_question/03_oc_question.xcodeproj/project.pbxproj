@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CD02259D2897CF9700A58362 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD02259C2897CF9700A58362 /* main.m */; };
 		CD0225AC2897D46900A58362 /* NSObject+TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0225AB2897D46900A58362 /* NSObject+TestClass.m */; };
-		CD43B1902897D9A600B50EDD /* NSString+stringExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD43B18F2897D9A600B50EDD /* NSString+stringExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,7 +28,6 @@
 		CD02259C2897CF9700A58362 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD0225AA2897D46900A58362 /* NSObject+TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+TestClass.h"; sourceTree = "<group>"; };
 		CD0225AB2897D46900A58362 /* NSObject+TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TestClass.m"; sourceTree = "<group>"; };
-		CD43B18F2897D9A600B50EDD /* NSString+stringExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+stringExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				CD02259C2897CF9700A58362 /* main.m */,
-				CD43B18F2897D9A600B50EDD /* NSString+stringExtension.m */,
 				CD0225AA2897D46900A58362 /* NSObject+TestClass.h */,
 				CD0225AB2897D46900A58362 /* NSObject+TestClass.m */,
 			);
@@ -127,7 +124,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD43B1902897D9A600B50EDD /* NSString+stringExtension.m in Sources */,
 				CD0225AC2897D46900A58362 /* NSObject+TestClass.m in Sources */,
 				CD02259D2897CF9700A58362 /* main.m in Sources */,
 			);
